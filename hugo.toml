@@ -31,9 +31,3 @@ theme = "PaperMod"
     url = "/syncra-engine/blog/"
     weight = 4
 
-    [[menu.main]]
-    identifier = "syncra-manual"
-    name = "Syncra Engine Manual"
-    url = "/syncra-engine/manual/"
-    weight = 5
-

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Syncra-Engines on Glacitecture Studios</title>
-    <link>http://localhost:1313/syncra-engine/</link>
-    <description>Recent content in Syncra-Engines on Glacitecture Studios</description>
+    <title>Syncra Engine Blog on Glacitecture Studios</title>
+    <link>http://localhost:1313/site/syncra-engine/</link>
+    <description>Recent content in Syncra Engine Blog on Glacitecture Studios</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/syncra-engine/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2025 01:26:53 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/site/syncra-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Syncra Devlog #1: Foundations and Frameworks</title>
+      <link>http://localhost:1313/site/syncra-engine/post1/</link>
+      <pubDate>Fri, 11 Jul 2025 01:26:53 +0100</pubDate>
+      <guid>http://localhost:1313/site/syncra-engine/post1/</guid>
+      <description>&lt;p&gt;Welcome to the first devlog for Syncra, our ambitious project to create a Rhythm Game Level Development Toolkit that can be applied to most engines and existing games. In this post, we’ll outline the foundational work we’ve done so far and the frameworks we’re using to bring Syncra to life.&lt;/p&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve been laying the foundation of Syncra’s architecture — including a robust data model, essential libraries, and initial project structure — while beginning implementation of the first core features.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
