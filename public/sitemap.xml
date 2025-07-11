@@ -2,23 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/site/desolation/</loc>
+    <loc>https://glacitecture-studios.github.io/site/desolation/</loc>
     <lastmod>2025-07-11T02:09:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/site/reboot/</loc>
+    <loc>https://glacitecture-studios.github.io/site/reboot/</loc>
     <lastmod>2025-07-11T02:09:01+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/site/syncra-engine/</loc>
+    <loc>https://glacitecture-studios.github.io/site/syncra-engine/</loc>
     <lastmod>2025-07-11T01:26:59+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/site/syncra-engine/post1/</loc>
-    <lastmod>2025-07-11T01:26:53+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/site/</loc>
+    <loc>https://glacitecture-studios.github.io/site/</loc>
     <lastmod>2025-07-11T01:26:35+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/site/categories/</loc>
+    <loc>https://glacitecture-studios.github.io/site/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/site/tags/</loc>
+    <loc>https://glacitecture-studios.github.io/site/tags/</loc>
   </url>
 </urlset>
