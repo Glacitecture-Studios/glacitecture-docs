@@ -1,0 +1,39 @@
+baseURL = 'https://glacitecture.github.io'
+languageCode = 'en-us'
+title = 'Glacitecture Studios'
+theme = "sitetheme"
+
+[params]
+    description = 'Glacitecture Studios is a indie game development studio focused on creating immersive and engaging gaming experiences, as well as providing powerful toolkits for developers.'
+
+[menu]
+    [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+    [[menu.main]]
+    identifier = "reboot"
+    name = "rEboot Blog"
+    url = "/reboot/"
+    weight = 2
+
+    [[menu.main]]
+    identifier = "desolation"
+    name = "Desolation Blog"
+    url = "/desolation/"
+    weight = 3
+
+    [[menu.main]]
+    identifier = "syncra-blog"
+    name = "Syncra Engine Blog"
+    url = "/syncra-engine/blog/"
+    weight = 4
+
+    [[menu.main]]
+    identifier = "syncra-manual"
+    name = "Syncra Engine Manual"
+    url = "/syncra-engine/manual/"
+    weight = 5
+
