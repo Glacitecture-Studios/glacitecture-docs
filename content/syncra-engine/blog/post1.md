@@ -4,7 +4,7 @@ draft = true
 title = 'Syncra Devlog #1: Foundations and Frameworks'
 +++
 
-Welcome to the first devlog for Syncra, our ambitious project to create a Rhythm Game Level Development Toolkit that can be applied to a vast majority of engines and existing games. In this post, we’ll outline the foundational work we’ve done so far and the frameworks we’re using to bring Syncra to life.
+Welcome to the first devlog for Syncra, our ambitious project to create a Rhythm Game Level Development Toolkit that can be applied to most engines and existing games. In this post, we’ll outline the foundational work we’ve done so far and the frameworks we’re using to bring Syncra to life.
 
 ## TL;DR
 
@@ -14,17 +14,17 @@ For the Syncra Editor, we’ve chosen Godot as our primary platform. Its flexibi
 
 On the engine side, we're evaluating options to make Syncra easily integrable into existing projects. At its core will be a Common Library written in C or Rust — designed to be lightweight, efficient, and portable. Built on top of that will be modular Runtime Libraries offering high-level abstractions tailored to Syncra’s functionality.
 
-We're currently targeting support for Godot, Unity, and Unreal Engine. By supporting multiple platforms, we hope to reach a wider audience and provide a flexible, powerful toolset for developers of all kinds.
+We're now focusing on support for Godot, Unity, and Unreal Engine. By supporting multiple platforms, we hope to reach a wider audience and provide a flexible, powerful toolset for developers of all kinds.
 
-When it comes to exporting for existing games, we're currently evaluating which titles should be our first integration targets. We want to ensure that Syncra can integrate seamlessly with popular engines and games, such as osu!, Friday Night Funkin', and others that have a strong modding community. (This requires a bit of research, specifically for osu! as it has a unique file structure which is not well documented.)
+When it comes to exporting for existing games, we're now evaluating which titles should be our first integration targets. We want to ensure that Syncra can integrate seamlessly with popular engines and games, such as osu!, Friday Night Funkin, and others that have a strong modding community. (This requires a bit of research, specifically for osu! as it has a unique file structure not well documented.)
 
-As for actual progress on the Editor, we've made significant strides in the past few weeks. We have a partially working prototype that allows users to place notes on a timeline and adjust their properties. The UI is still rough around the edges, but it’s functional enough to start testing the core concepts. Saving and Loading projects is currently non-functional; we have the UI in place, but the backend logic is still being developed.
+As for actual progress on the Editor, we've made significant strides in the past few weeks. We have a partially working prototype that allows users to place notes on a timeline and adjust their properties. The UI is still rough around the edges, but it’s functional enough to start testing the core concepts. Saving and Loading projects is non-functional; we have the UI in place, but the backend logic is still being developed.
 
 ## Planning Foundations
 
 Before diving into implementation, we spent a lot of time planning the architecture and design of Syncra. This involved defining the core data structures, workflows, and user interactions that would form the backbone of the toolkit.
 
-We started by identifying the key components of Syncra:
+We started by identifying the key parts of Syncra:
 - **Data Model**: The structure that defines how levels, notes, and other entities are represented.
 - **Editor**: The user interface for creating and editing levels, including timelines, note placement, and property adjustments.
 - **Runtime Libraries**: The libraries that will handle the playback and interaction logic for levels created with Syncra.
@@ -34,7 +34,7 @@ We also established a set of principles to guide our development:
 - **Modularity**: Syncra should be built in a way that allows for easy extension and integration with other tools and engines.
 - **Cross-Platform Compatibility**: The toolkit should work seamlessly across different operating systems and game engines.
 - **User-Centric Design**: The editor should be intuitive and easy to use, allowing developers to focus on creativity rather than technical hurdles.
-- **Performance**: Syncra should be efficient in terms of memory and processing, ensuring smooth operation even with complex levels.
+- **Performance**: Syncra should be efficient in memory and processing, ensuring smooth operation even with complex levels.
 
 ### Data Model
 
@@ -50,7 +50,7 @@ The core components of the Data Model include:
 The Syncra Editor is being built using Godot, leveraging its powerful scene system and scripting capabilities. The editor will provide a timeline-based interface for creating and editing levels, allowing users to place notes, adjust their properties, and visualize the timing of the level.
 
 The core features of the Syncra Editor include:
-- **Timeline View**: A visual representation of the level's timing, allowing users to see the placement of notes in relation to the music.
+- **Timeline View**: A visual representation of the level's timing, allowing users to see the placement of notes relative to the music.
 - **Note Placement**: A system for placing notes on the timeline, with support for different note types and properties.
 - **Property Editor**: A panel for adjusting the properties of selected notes, including position, timing, and custom attributes.
 - **Project Management**: A system for creating, saving, and loading Syncra projects, allowing users to manage their levels and assets easily.
@@ -79,5 +79,5 @@ The core components of the Runtime Libraries include:
 ### Export/Import Mechanism
 The export mechanism will allow users to convert Syncra projects into formats compatible with various game engines and existing games. This will involve creating a set of export plugins for each target engine, ensuring that the exported levels retain their timing, note properties, and other essential information.
 
-The import mechanism will allow users to bring existing levels from other formats into Syncra, enabling them to take advantage of the toolkit's features and workflows. This will involve creating import plugins for popular formats used in rhythm games, such as osu! beatmaps and FNF levels.
+The import mechanism will allow users to bring existing levels from other formats into Syncra, enabling them to take advantage of the toolkit's features and workflows. This will involve creating import plugins for popular formats used in rhythm games, such as osu! Beatmaps and FNF levels.
 

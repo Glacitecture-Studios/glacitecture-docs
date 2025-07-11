@@ -1,7 +1,7 @@
-baseURL = 'https://glacitecture.github.io'
+baseURL = 'https://glacitecture-studios.github.io'
 languageCode = 'en-us'
 title = 'Glacitecture Studios'
-theme = "sitetheme"
+theme = "PaperMod"
 
 [params]
     description = 'Glacitecture Studios is a indie game development studio focused on creating immersive and engaging gaming experiences, as well as providing powerful toolkits for developers.'
