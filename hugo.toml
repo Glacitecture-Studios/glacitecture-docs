@@ -28,6 +28,6 @@ theme = "PaperMod"
     [[menu.main]]
     identifier = "syncra-blog"
     name = "Syncra Engine Blog"
-    url = "/syncra-engine/blog/"
+    url = "/syncra-engine/"
     weight = 4
 
